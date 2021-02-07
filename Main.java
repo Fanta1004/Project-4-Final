@@ -9,7 +9,7 @@ class Main {
 		System.out.println("What is your name?");
 		String name = scan.next();
 		System.out.println("Welcome to Jared Theater " + name);
-		//Print statements for what movie.
+		//Print statements for what movie to watch.
 		System.out.println("What movie do you want to watch?");
 		System.out.println("If you want to watch Godzilla vs King Kong please put 1.");
 		System.out.println("If you want to watch Tom & Jerry please put 2");
@@ -23,7 +23,7 @@ class Main {
 		System.out.println("Thanks for watching. Your total is " + whatMovie(movie) + "$");
 	}
 
-	//Method that will tell them what movie will the person will watch.
+	//Method that will tell them what movie will the person watch.
 	static int whatMovie(int movie)
 	{
 		if (movie == 1){
